@@ -63,7 +63,7 @@ jobs:
         run: |
           set -euo pipefail
 
-          rsync -az --delete \
+          rsync -rltz --delete \
             -e "ssh -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes" \
             dist/ \
             "${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }}:${{ secrets.SERVER_PATH }}"
