@@ -8,13 +8,14 @@
     "start": "npx mz b && npx serve ./dist"
   },
   "devDependencies": {
+    "prettier": "^3.9.6",
     "serve": "latest"
   },
   "allowScripts": {
-    "esbuild@0.28.1": true
+    "esbuild@0.28.2": true
   },
   "dependencies": {
-    "minimaz-cli": "latest",
-    "bootstrap-icons": "^1.13.1"
+    "bootstrap-icons": "^1.13.1",
+    "minimaz-cli": "latest"
   }
 }
