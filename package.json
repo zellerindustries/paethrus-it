@@ -17,11 +17,9 @@
   },
   "allowScripts": {
     "esbuild@0.28.2": true
-    "esbuild@0.28.2": true
   },
   "dependencies": {
     "bootstrap-icons": "^1.13.1",
-    "minimaz-cli": "latest""bootstrap-icons": "^1.13.1",
     "minimaz-cli": "latest"
   }
 }

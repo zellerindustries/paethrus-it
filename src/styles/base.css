@@ -30,9 +30,7 @@
 
 body {
   user-select: none;
-  font-family:
-    -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto,
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif;
   color: var(--text-white);
   line-height: 1.6;
   padding: 4rem 1.25rem 2rem 1.25rem;
@@ -45,16 +43,8 @@ body {
 
   background-color: var(--bg-color);
   background-image:
-    radial-gradient(
-      circle at 50% 0%,
-      rgba(255, 255, 255, 0.05) 0%,
-      transparent 50%
-    ),
-    radial-gradient(
-      circle at 80% 80%,
-      rgba(56, 189, 248, 0.03) 0%,
-      transparent 40%
-    );
+    radial-gradient(circle at 50% 0%, rgba(255, 255, 255, 0.05) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(56, 189, 248, 0.03) 0%, transparent 40%);
   background-attachment: fixed;
 }
 
@@ -190,7 +180,7 @@ a > :first-child {
 }
 
 a::after {
-  content: "→";
+  content: '→';
   position: absolute;
   right: 1.25rem;
   top: 50%;
@@ -332,7 +322,7 @@ footer p {
 }
 
 .btn:disabled,
-.btn[aria-disabled="true"] {
+.btn[aria-disabled='true'] {
   opacity: 0.5;
   cursor: not-allowed;
   pointer-events: none;
