@@ -1,0 +1,35 @@
+header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.825rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  background: var(--badge-bg);
+  border: 1px solid var(--badge-border);
+  padding: 0.35rem 0.9rem;
+  border-radius: var(--radius-pill);
+  margin-bottom: 1.5rem;
+  backdrop-filter: blur(8px);
+}
+
+.eyebrow i {
+  font-size: 0.85rem;
+  color: var(--color-focus);
+}
+
+.subhead {
+  font-size: 1.05rem;
+  color: var(--text-subhead);
+  font-weight: 400;
+  max-width: 460px;
+  margin: 0 auto;
+  opacity: 0.9;
+}

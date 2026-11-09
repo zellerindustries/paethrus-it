@@ -1,0 +1,37 @@
+.social {
+  margin-top: 2rem;
+}
+
+.social ul {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.social li {
+  margin-bottom: 0;
+}
+
+.social a {
+  padding: 0.65rem 1.25rem;
+  min-height: auto;
+  border-radius: var(--radius-pill);
+}
+
+.social a > :first-child {
+  position: static !important;
+  transform: none !important;
+  margin-right: 0.5rem !important;
+  width: auto !important;
+  height: auto !important;
+  font-size: 1rem;
+}
+
+.social a:hover > :first-child {
+  transform: none !important;
+}
+
+.social a::after {
+  content: none;
+}

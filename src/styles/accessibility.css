@@ -1,0 +1,12 @@
+#skip-to-content:focus {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: var(--color-focus);
+  color: #000000;
+  padding: 10px 20px;
+  z-index: 100;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
