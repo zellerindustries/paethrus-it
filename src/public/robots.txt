@@ -26,4 +26,4 @@ Disallow:
 User-agent: Bingbot
 Disallow:
 
-Sitemap: https://mrzeller.com/sitemap.xml
+Sitemap: https://paethrus.it/sitemap.xml
